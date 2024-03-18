@@ -1,0 +1,101 @@
+body{
+    background-image: url(./img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(15, 14, 14, 0.499);
+}
+.content1 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+}
+#logo{
+    height: 60px;
+    width: 150px;
+}
+.content2 {
+    position: absolute;
+    top: 3%;
+    left: 35%;
+}
+h1{
+    color: red;
+    padding-left: 12%;
+    opacity: 5;
+    
+}
+#email{
+    background-color: black;
+    border: 1px solid gray;
+    height: 45px;
+    width: 350px;
+    margin-bottom: 20px;
+    
+}
+#pass{
+    background-color: black;
+    border: 1px solid gray;
+    height: 45px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+#submit{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 350px;
+
+    text-align: center;
+    
+
+}
+#or{
+    color: white;
+    font-size: small;
+
+}
+#use{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 350px;
+
+    text-align: center;
+    
+
+}
+#forgot{
+    color: white;
+    font-size: small;
+
+}
+#forgot:hover{
+    
+    cursor: pointer;
+    width: fit-content;
+    border-bottom: 3px solid white;
+
+
+}
+#signup{
+    color: white;
+}
+#main{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 90px;
+    border: 2px solid black;
+}
+a{
+   text-decoration: none;
+}
